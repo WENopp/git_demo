@@ -2,8 +2,12 @@ function greet(name) {
   return `Hello, ${name}!`;
 }
 
-function add(a, b) {
-  return a + b;
+function multiply(a, b) {
+  return a * b;
+}
+
+function subtract(a, b) {
+  return a - b;
 }
 
 function fibonacci(n) {
@@ -12,5 +16,6 @@ function fibonacci(n) {
 }
 
 console.log(greet('World'));
-console.log('2 + 3 =', add(2, 3));
+console.log('4 * 5 =', multiply(4, 5));
+console.log('10 - 3 =', subtract(10, 3));
 console.log('fibonacci(10) =', fibonacci(10));
